@@ -1,6 +1,9 @@
 # EcoChat (ASP.NET 8 + SignalR + React)
 
-<video controls src="Screen Recording 2025-04-20 at 6.47.40 PM.mov" title="Title"></video>
+
+
+https://github.com/user-attachments/assets/d991d315-2da8-464c-b25b-f64952522d83
+
 
 # 👋 Hello!
 
