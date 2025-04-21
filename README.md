@@ -1,8 +1,7 @@
 # EcoChat (ASP.NET 8 + SignalR + React)
 
 
-
-https://github.com/user-attachments/assets/d991d315-2da8-464c-b25b-f64952522d83
+https://github.com/user-attachments/assets/64e25cd0-6991-49f3-a073-528153a92df0
 
 
 # 👋 Hello!
