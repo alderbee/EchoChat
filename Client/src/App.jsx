@@ -7,6 +7,7 @@ function App() {
   const [connection, setConnection] = useState(null);
   const [messages, setMessages] = useState([]);
   const [messageText, setMessageText] = useState('');
+  const [username, setUsername] = useState('');
 
   const joinChatRoom = useCallback(async (username, socialroom) => {
     try {
@@ -22,6 +23,7 @@ function App() {
       });
 
       await newConnection.invoke('JoinSocialRoom', { userName: username, socialRoom: socialroom });
+      setUsername(username);
       setConnection(newConnection);
     } catch (error) {
       console.error('Error joining chat room:', error);
@@ -50,6 +52,7 @@ function App() {
           messageText={messageText}
           setMessageText={setMessageText}
           sendMessage={sendMessage}
+          username={username}
         />
       )}
     </div>

@@ -1,9 +1,9 @@
 import { memo } from 'react';
 import MessageContainer from './MessageContainer';
 
-const ChatRoom = memo(({ messages, messageText, setMessageText, sendMessage }) => (
+const ChatRoom = memo(({ messages, messageText, setMessageText, sendMessage, username }) => (
     <div className="w-full max-w-2xl bg-white shadow-md rounded-lg p-4 space-y-4">
-        <h2 className="text-xl font-semibold text-gray-700">Chat Room</h2>
+        <h2 className="text-xl font-semibold text-gray-700">{username}'s Chat Room</h2>
         <MessageContainer messages={messages} />
         <div className="flex gap-2 mt-4">
             <input
